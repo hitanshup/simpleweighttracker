@@ -1,0 +1,126 @@
+# Bytecode / Compiled / Virtual Machine
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Package Distribution
+dist/
+build/
+sdist/
+*.egg-info/
+*.egg
+.Python
+Lib/
+Include/
+bin
+share
+wheels
+*.whl
+*.pth
+
+# SQLite Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend Dependencies
+node_modules/
+
+# Frontend Build Artifacts
+build/
+dist/
+
+# Environment Variables
+.env
+.venv
+venv/
+env/
+ENV
+
+# Logs
+*.log
+logs/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor/IDE Specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+~$*
+*.bak
+
+# Python Specific
+*.pyc
+*.pyd
+*.pyo
+
+# Secret Keys
+secret_key.txt
+
+# Temporary files often created by text editors
+*~
+\#*\#
+
+# Dependency directories
+.venv
+venv
+env
+
+#Ignore media files, if any
+/media/*
+!/media/.gitkeep
+
+#Ignore static files, if any
+/static/*
+!/static/.gitkeep
+
+# Compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+virtenv/
+*/site-packages/*
+
+# Coverage data
+.coverage
+coverage.xml
+
+# Temporary files
+*.tmp
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+*.orig
+*.py,cover
+*.log
+*sass-cache*
+.sourcemaps
+
+# End of file
